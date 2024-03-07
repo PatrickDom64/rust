@@ -7,8 +7,21 @@ fn repeticoes{
         contador +=1;
         println!("{} X {} = {}", multiplicador,contador, multiplicador*contador);        
     }
-}
 
+    loop{
+        contador +=1;
+        println!("{} X {} = {}", multiplicador,contador, multiplicador*contador); 
+
+        if contador == 10{
+            break;
+        }
+    }
+
+    for i in 1..=10{
+        println!("{} X {} = {}", multiplicador,i, multiplicador*contador); 
+    }
+
+}
 
 
 fn soma(a:i32, b:i32 ) -> i32
@@ -69,4 +82,6 @@ fn main(){
     }
 
     println!("É {} de idade",condicao);
+
+    repeticoes();
 }

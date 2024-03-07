@@ -1,3 +1,14 @@
+fn repeticoes{
+    let multiplicador:u8 = 5;
+
+    let mut contador:u8 = 0;
+
+    while contador < 10{
+        contador +=1;
+        println!("{} X {} = {}", multiplicador,contador, multiplicador*contador);        
+    }
+}
+
 
 
 fn soma(a:i32, b:i32 ) -> i32

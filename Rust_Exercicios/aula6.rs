@@ -13,5 +13,5 @@ fn rouba(string: &mut String){
 }
 
 fn main(){
-    ownership();
+    //ownership();
 }

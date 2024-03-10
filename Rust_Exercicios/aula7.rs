@@ -14,5 +14,4 @@ fn pattern_matching(){
             _ => "Muito"}
         );
     }
-    
 }

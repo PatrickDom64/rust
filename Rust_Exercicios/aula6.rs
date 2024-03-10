@@ -2,12 +2,13 @@
 
 fn ownership(){
     let uma_string = String::from("Patrick");
-    rouba(uma_string);
+    rouba(&mut uma_string);
 
     println!("{}", uma_string);
 }
 
-fn rouba(string: String){
+fn rouba(string: &mut String){
+    string.push_str("Dom");
     println!("{}", string);
 }
 
